@@ -1,0 +1,1104 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMA Nusantara Bangsa — Website Resmi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- ===== NAVBAR ===== -->
+    <nav id="navbar">
+      <div class="nav-inner">
+        <a href="#hero" class="nav-brand">
+          <div class="nav-logo">SN</div>
+          <span class="nav-brand-name">SMA Nusantara Bangsa</span>
+        </a>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#hero" class="active">Beranda</a></li>
+          <li><a href="#tentang">Tentang</a></li>
+          <li><a href="#program">Program</a></li>
+          <li><a href="#guru">Tim Guru</a></li>
+          <li><a href="#kesiswaan">Siswa</a></li>
+          <li><a href="#berita">Berita</a></li>
+          <li><a href="#galeri">Galeri</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+        <a href="#kontak" class="nav-cta">Daftar Sekarang</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+      </div>
+    </nav>
+
+    <!-- ===== HERO — DIAGONAL SPLIT ===== -->
+    <section id="hero">
+      <div class="hero-wrapper">
+        <!-- Floating decorative shapes -->
+        <div class="hero-shapes">
+          <div class="shape-circle sc-1"></div>
+          <div class="shape-circle sc-2"></div>
+          <div class="shape-circle sc-3"></div>
+          <div class="shape-dot-cluster"><span></span><span></span><span></span> <span></span><span></span><span></span> <span></span><span></span><span></span></div>
+        </div>
+
+        <!-- Left: teal content area (diagonal cut via clip-path) -->
+        <div class="hero-left">
+          <div class="hero-left-inner">
+            <div class="hero-badge">
+              <i class="fa-solid fa-star"></i>
+              Sekolah Terbaik 2024
+            </div>
+            <h1 class="hero-title">SMA Nusantara Bangsa</h1>
+            <p class="hero-tagline">Membentuk Generasi Cerdas, Berkarakter, dan Berdaya Saing</p>
+            <div class="hero-cta">
+              <a href="#program" class="btn btn-primary"> <i class="fa-solid fa-compass"></i> Jelajahi Program </a>
+              <a href="#kontak" class="btn btn-outline"> <i class="fa-solid fa-phone"></i> Hubungi Kami </a>
+            </div>
+            <div class="hero-mini-stats">
+              <div class="mini-stat">
+                <span class="mini-stat-number">1.240</span>
+                <span class="mini-stat-label">Siswa</span>
+              </div>
+              <div class="mini-stat">
+                <span class="mini-stat-number">68</span>
+                <span class="mini-stat-label">Guru</span>
+              </div>
+              <div class="mini-stat">
+                <span class="mini-stat-number">24</span>
+                <span class="mini-stat-label">Ekskul</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: image slider -->
+        <div class="hero-right">
+          <div class="hero-slider-frame" id="heroSlider">
+            <div class="hero-slide active" style="background-image: url(&quot;https://placehold.co/1600x900/0f6e75/ffffff?text=Slide+1+-+Inovasi+Belajar&quot;)"></div>
+            <div class="hero-slide" style="background-image: url(&quot;https://placehold.co/1600x900/0d2b2e/ffffff?text=Slide+2+-+Fasilitas+Modern&quot;)"></div>
+            <div class="hero-slide" style="background-image: url(&quot;https://placehold.co/1600x900/1a9aa3/ffffff?text=Slide+3+-+Kolaborasi+Siswa&quot;)"></div>
+          </div>
+          <div class="hero-slider-dots" id="heroDots">
+            <div class="hero-dot active" data-index="0"></div>
+            <div class="hero-dot" data-index="1"></div>
+            <div class="hero-dot" data-index="2"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TENTANG — HORIZONTAL HISTORY TIMELINE ===== -->
+    <section id="tentang" class="section bg-surface">
+      <div class="container">
+        <div class="section-header animate">
+          <span class="section-label">Mengenal Kami</span>
+          <h2>Tentang Kami</h2>
+          <p class="section-subtext">Berdiri sejak 1985, kami terus berinovasi membentuk generasi unggul yang adaptif dan berdampak.</p>
+        </div>
+
+        <!-- Horizontal history timeline -->
+        <div class="history-timeline stagger">
+          <div class="timeline-milestone animate">
+            <span class="milestone-year">1985</span>
+            <div class="milestone-connector">
+              <div class="milestone-dot"></div>
+              <div class="milestone-line"></div>
+            </div>
+            <span class="milestone-label">Sekolah Berdiri — Generasi Pertama</span>
+          </div>
+          <div class="timeline-milestone animate">
+            <span class="milestone-year">1995</span>
+            <div class="milestone-connector">
+              <div class="milestone-dot"></div>
+              <div class="milestone-line"></div>
+            </div>
+            <span class="milestone-label">Gedung Baru &amp; Ekspansi Kelas</span>
+          </div>
+          <div class="timeline-milestone animate">
+            <span class="milestone-year">2005</span>
+            <div class="milestone-connector">
+              <div class="milestone-dot"></div>
+              <div class="milestone-line"></div>
+            </div>
+            <span class="milestone-label">Raih Akreditasi A Pertama</span>
+          </div>
+          <div class="timeline-milestone animate">
+            <span class="milestone-year">2015</span>
+            <div class="milestone-connector">
+              <div class="milestone-dot"></div>
+              <div class="milestone-line"></div>
+            </div>
+            <span class="milestone-label">Innovation Lab &amp; Fasilitas Digital</span>
+          </div>
+          <div class="timeline-milestone animate">
+            <span class="milestone-year">2024</span>
+            <div class="milestone-connector">
+              <div class="milestone-dot"></div>
+              <div class="milestone-line"></div>
+            </div>
+            <span class="milestone-label">Green School Award Nasional</span>
+          </div>
+        </div>
+
+        <!-- Visi-Misi card -->
+        <div class="visi-misi-card animate">
+          <div class="visi-col">
+            <div class="vm-icon"><i class="fa-solid fa-eye"></i></div>
+            <div class="vm-title">Visi</div>
+            <p class="vm-text">Menjadi sekolah unggulan nasional yang melahirkan generasi berkarakter, inovatif, berwawasan global, dan berkontribusi nyata bagi masyarakat dan lingkungan.</p>
+          </div>
+          <div class="misi-col">
+            <div class="vm-icon"><i class="fa-solid fa-bullseye"></i></div>
+            <div class="vm-title">Misi</div>
+            <ul class="misi-list">
+              <li>Menyelenggarakan pembelajaran berbasis inovasi dan teknologi terkini.</li>
+              <li>Membangun karakter siswa yang berintegritas dan peduli lingkungan.</li>
+              <li>Membuka akses kolaborasi internasional bagi seluruh sivitas sekolah.</li>
+              <li>Mengembangkan ekosistem belajar yang inklusif, kreatif, dan menyenangkan.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Principal quote -->
+        <div class="principal-quote animate">
+          <div class="principal-photo-wrap">
+            <img src="https://placehold.co/200x200/0f6e75/ffffff?text=KS" alt="Kepala Sekolah" class="principal-photo" />
+            <div class="principal-name">Drs. Ahmad Fauzi, M.Pd.</div>
+            <div class="principal-title">Kepala Sekolah</div>
+            <div class="principal-badge"><i class="fa-solid fa-star"></i> Akreditasi A — Unggul</div>
+          </div>
+          <div class="principal-quote-text">
+            <span class="quote-mark">"</span>
+            <p class="quote-body">Inovasi dan kolaborasi adalah kunci pendidikan masa depan. Kami hadir untuk mempersiapkan generasi yang adaptif, kreatif, dan berdampak bagi masyarakat global.</p>
+            <div class="quote-accent-line"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== STATISTIK — GLASSMORPHISM COUNTERS ===== -->
+    <section id="statistik" class="section bg-primary">
+      <div class="container">
+        <div class="section-header animate">
+          <span class="section-label">Angka Bicara</span>
+          <h2>Sekolah dalam Angka</h2>
+        </div>
+        <div class="stats-grid stagger">
+          <div class="stat-card animate">
+            <i class="fa-solid fa-users stat-icon"></i>
+            <span class="counter" data-target="1240">0</span>
+            <span class="stat-label">Siswa Aktif</span>
+          </div>
+          <div class="stat-card animate">
+            <i class="fa-solid fa-chalkboard-teacher stat-icon"></i>
+            <span class="counter" data-target="68">0</span>
+            <span class="stat-label">Tenaga Pengajar</span>
+          </div>
+          <div class="stat-card animate">
+            <i class="fa-solid fa-trophy stat-icon"></i>
+            <span class="counter" data-target="24">0</span>
+            <span class="stat-label">Ekstrakulikuler</span>
+          </div>
+          <div class="stat-card animate">
+            <i class="fa-solid fa-calendar-check stat-icon"></i>
+            <span class="counter" data-target="1985">0</span>
+            <span class="stat-label">Tahun Berdiri</span>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="accreditation-badge animate">
+            <div class="accreditation-stars">★ ★ ★</div>
+            <div class="accreditation-text">Akreditasi A — Unggul</div>
+            <div class="accreditation-sub">Badan Akreditasi Nasional Sekolah/Madrasah</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROGRAM — HORIZONTAL SCROLL + FASILITAS ===== -->
+    <section id="program" class="section bg-bg">
+      <div class="container">
+        <div class="section-header animate">
+          <span class="section-label">Unggulan Kami</span>
+          <h2>Keunggulan &amp; Fasilitas</h2>
+        </div>
+
+        <!-- Horizontal scroll program cards -->
+        <div class="programs-scroll-wrapper">
+          <div class="programs-track stagger">
+            <div class="program-card card-3d animate">
+              <div class="program-accent-bar"></div>
+              <div class="program-card-body">
+                <i class="fa-solid fa-laptop-code program-icon"></i>
+                <div class="program-title">Digital &amp; Teknologi</div>
+                <p class="program-desc">Literasi digital, coding, dan AI untuk generasi masa depan yang tech-savvy.</p>
+              </div>
+            </div>
+            <div class="program-card card-3d animate">
+              <div class="program-accent-bar"></div>
+              <div class="program-card-body">
+                <i class="fa-solid fa-earth-asia program-icon"></i>
+                <div class="program-title">Global Citizenship</div>
+                <p class="program-desc">Program pertukaran pelajar dan kolaborasi internasional lintas negara.</p>
+              </div>
+            </div>
+            <div class="program-card card-3d animate">
+              <div class="program-accent-bar"></div>
+              <div class="program-card-body">
+                <i class="fa-solid fa-leaf program-icon"></i>
+                <div class="program-title">Eco &amp; Sustainability</div>
+                <p class="program-desc">Pendidikan lingkungan hidup dan program sekolah hijau berkelanjutan.</p>
+              </div>
+            </div>
+            <div class="program-card card-3d animate">
+              <div class="program-accent-bar"></div>
+              <div class="program-card-body">
+                <i class="fa-solid fa-brain program-icon"></i>
+                <div class="program-title">Creative &amp; Critical Thinking</div>
+                <p class="program-desc">Metode pembelajaran berbasis proyek, desain thinking, dan problem solving.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="scroll-hint"><i class="fa-solid fa-arrow-right"></i> Geser untuk lihat semua</p>
+
+        <!-- Facilities 4-col grid -->
+        <div class="facilities-grid stagger">
+          <div class="facility-item animate">
+            <img src="https://placehold.co/600x400/0f6e75/ffffff?text=Innovation+Lab" alt="Innovation Lab" />
+            <div class="facility-overlay"><span class="facility-title">Innovation Lab</span></div>
+          </div>
+          <div class="facility-item animate">
+            <img src="https://placehold.co/600x400/0d2b2e/ffffff?text=Digital+Library" alt="Digital Library" />
+            <div class="facility-overlay"><span class="facility-title">Digital Library</span></div>
+          </div>
+          <div class="facility-item animate">
+            <img src="https://placehold.co/600x400/f6c90e/0d2b2e?text=Sport+Complex" alt="Sport Complex" />
+            <div class="facility-overlay"><span class="facility-title">Sport Complex</span></div>
+          </div>
+          <div class="facility-item animate">
+            <img src="https://placehold.co/600x400/1a9aa3/ffffff?text=Auditorium" alt="Auditorium Modern" />
+            <div class="facility-overlay"><span class="facility-title">Auditorium Modern</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== STRUKTUR ORGANISASI ===== -->
+    <section id="struktur" class="section bg-surface">
+      <div class="container">
+        <div class="section-header animate">
+          <span class="section-label">Manajemen Sekolah</span>
+          <h2>Struktur Organisasi</h2>
+        </div>
+        <div class="org-chart animate">
+          <!-- Root -->
+          <div class="org-level">
+            <div class="org-node org-node-down">
+              <div class="org-box org-box-root">
+                <div class="org-box-name">Drs. Ahmad Fauzi, M.Pd.</div>
+                <div class="org-box-role">Kepala Sekolah</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Branch row -->
+          <div class="org-level">
+            <!-- Branch 1 -->
+            <div class="org-node">
+              <div class="org-drop">
+                <div class="org-box org-box-branch">
+                  <div class="org-box-name">Hendra Wijaya, S.Pd.</div>
+                  <div class="org-box-role">Wakasek Kurikulum</div>
+                </div>
+              </div>
+            </div>
+            <!-- Branch 2 -->
+            <div class="org-node">
+              <div class="org-drop">
+                <div class="org-box org-box-branch">
+                  <div class="org-box-name">Siti Rahayu, M.Pd.</div>
+                  <div class="org-box-role">Wakasek Kesiswaan</div>
+                </div>
+              </div>
+            </div>
+            <!-- Branch 3 -->
+            <div class="org-node">
+              <div class="org-drop">
+                <div class="org-box org-box-branch">
+                  <div class="org-box-name">Doni Firmansyah, S.T.</div>
+                  <div class="org-box-role">Wakasek Sarpras</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Leaf row -->
+          <div class="org-level">
+            <!-- Leaves of Kurikulum -->
+            <div class="org-node">
+              <div class="org-drop">
+                <div class="org-box org-box-leaf">
+                  <div class="org-box-name">Rina Kusuma, S.Pd.</div>
+                  <div class="org-box-role">Koordinator Akademik</div>
+                </div>
+              </div>
+            </div>
+            <div class="org-node">
+              <div class="org-drop">
+                <div class="org-box org-box-leaf">
+                  <div class="org-box-name">Budi Santoso, S.Pd.</div>
+                  <div class="org-box-role">Koordinator Evaluasi</div>
+                </div>
+              </div>
+            </div>
+            <!-- Leaves of Kesiswaan -->
+            <div class="org-node">
+              <div class="org-drop">
+                <div class="org-box org-box-leaf">
+                  <div class="org-box-name">Agus Pramono, S.Pd.</div>
+                  <div class="org-box-role">Koordinator Ekskul</div>
+                </div>
+              </div>
+            </div>
+            <div class="org-node">
+              <div class="org-drop">
+                <div class="org-box org-box-leaf">
+                  <div class="org-box-name">Dewi Lestari, S.Pd.</div>
+                  <div class="org-box-role">Koordinator BK</div>
+                </div>
+              </div>
+            </div>
+            <!-- Leaf of Sarpras -->
+            <div class="org-node">
+              <div class="org-drop">
+                <div class="org-box org-box-leaf">
+                  <div class="org-box-name">Eko Prasetyo, S.Pd.</div>
+                  <div class="org-box-role">Koordinator Lab</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== GURU — SLIDE-UP INFO PANEL ===== -->
+    <section id="guru" class="section bg-bg">
+      <div class="container">
+        <div class="section-header animate">
+          <span class="section-label">Tenaga Pendidik</span>
+          <h2>Tim Pengajar</h2>
+        </div>
+        <div class="teachers-grid stagger">
+          <div class="teacher-card card-3d animate">
+            <img src="https://placehold.co/300x300/0f6e75/ffffff?text=RK" alt="Rina Kusuma" />
+            <div class="teacher-info">
+              <div class="teacher-name">Rina Kusuma, S.Pd.</div>
+              <div class="teacher-subject">Matematika</div>
+              <span class="teacher-specialty">Olimpiade &amp; Kompetisi</span>
+              <p class="teacher-quote">"Matematika bukan tentang angka, tapi tentang cara berpikir."</p>
+            </div>
+          </div>
+          <div class="teacher-card card-3d animate">
+            <img src="https://placehold.co/300x300/1a9aa3/ffffff?text=BS" alt="Budi Santoso" />
+            <div class="teacher-info">
+              <div class="teacher-name">Budi Santoso, S.Pd.</div>
+              <div class="teacher-subject">Fisika</div>
+              <span class="teacher-specialty">Robotika &amp; IoT</span>
+              <p class="teacher-quote">"Setiap pertanyaan adalah awal dari penemuan besar."</p>
+            </div>
+          </div>
+          <div class="teacher-card card-3d animate">
+            <img src="https://placehold.co/300x300/0d2b2e/ffffff?text=SI" alt="Sari Indah" />
+            <div class="teacher-info">
+              <div class="teacher-name">Sari Indah, S.Pd.</div>
+              <div class="teacher-subject">Bahasa Indonesia</div>
+              <span class="teacher-specialty">Jurnalistik &amp; Sastra</span>
+              <p class="teacher-quote">"Kata-kata adalah senjata paling kuat yang kita miliki."</p>
+            </div>
+          </div>
+          <div class="teacher-card card-3d animate">
+            <img src="https://placehold.co/300x300/0f6e75/ffffff?text=WN" alt="Wahyu Nugroho" />
+            <div class="teacher-info">
+              <div class="teacher-name">Wahyu Nugroho, S.T.</div>
+              <div class="teacher-subject">Pemrograman</div>
+              <span class="teacher-specialty">Web &amp; Mobile Dev</span>
+              <p class="teacher-quote">"Kode yang elegan adalah karya seni yang bekerja."</p>
+            </div>
+          </div>
+          <div class="teacher-card card-3d animate">
+            <img src="https://placehold.co/300x300/1a9aa3/ffffff?text=MP" alt="Mega Pratiwi" />
+            <div class="teacher-info">
+              <div class="teacher-name">Mega Pratiwi, S.Pd.</div>
+              <div class="teacher-subject">Bahasa Inggris</div>
+              <span class="teacher-specialty">Debat &amp; Public Speaking</span>
+              <p class="teacher-quote">"Language is the road map of a culture."</p>
+            </div>
+          </div>
+          <div class="teacher-card card-3d animate">
+            <img src="https://placehold.co/300x300/0d2b2e/ffffff?text=AH" alt="Arif Hidayat" />
+            <div class="teacher-info">
+              <div class="teacher-name">Arif Hidayat, S.Pd.</div>
+              <div class="teacher-subject">IPS &amp; Geografi</div>
+              <span class="teacher-specialty">Lingkungan Hidup</span>
+              <p class="teacher-quote">"Bumi ini bukan warisan leluhur, tapi pinjaman dari anak cucu."</p>
+            </div>
+          </div>
+          <div class="teacher-card card-3d animate">
+            <img src="https://placehold.co/300x300/0f6e75/ffffff?text=NF" alt="Nurul Faizah" />
+            <div class="teacher-info">
+              <div class="teacher-name">Nurul Faizah, S.Pd.</div>
+              <div class="teacher-subject">Biologi</div>
+              <span class="teacher-specialty">Ekologi &amp; Konservasi</span>
+              <p class="teacher-quote">"Alam adalah laboratorium terbesar yang pernah ada."</p>
+            </div>
+          </div>
+          <div class="teacher-card card-3d animate">
+            <img src="https://placehold.co/300x300/1a9aa3/ffffff?text=DF" alt="Doni Firmansyah" />
+            <div class="teacher-info">
+              <div class="teacher-name">Doni Firmansyah, S.T.</div>
+              <div class="teacher-subject">Desain &amp; Seni</div>
+              <span class="teacher-specialty">Digital Art &amp; UX</span>
+              <p class="teacher-quote">"Desain yang baik adalah desain yang tidak terlihat."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== KESISWAAN — ANIMATED PILL TAB ===== -->
+    <section id="kesiswaan" class="section bg-surface">
+      <div class="container">
+        <div class="section-header animate">
+          <span class="section-label">Kehidupan Siswa</span>
+          <h2>Kesiswaan</h2>
+        </div>
+
+        <!-- Tab nav with animated pill -->
+        <div class="tab-nav-center">
+          <div class="tab-nav-wrapper" id="tabNav">
+            <div class="tab-pill-bg" id="tabPill"></div>
+            <button class="tab-btn active" data-tab="ekskul">Ekstrakulikuler</button>
+            <button class="tab-btn" data-tab="prestasi">Prestasi</button>
+            <button class="tab-btn" data-tab="kegiatan">Kegiatan</button>
+          </div>
+        </div>
+
+        <div class="tab-panels">
+          <!-- Panel: Ekstrakulikuler -->
+          <div class="tab-panel active" id="panel-ekskul">
+            <div class="tab-grid stagger">
+              <div class="tab-item-card animate">
+                <i class="fa-solid fa-robot tab-item-icon"></i>
+                <div class="tab-item-title">Robotika &amp; AI Club</div>
+                <p class="tab-item-desc">Merancang robot cerdas dan belajar machine learning dasar.</p>
+              </div>
+              <div class="tab-item-card animate">
+                <i class="fa-solid fa-palette tab-item-icon"></i>
+                <div class="tab-item-title">Digital Creative</div>
+                <p class="tab-item-desc">Desain grafis, videografi, dan konten kreator muda.</p>
+              </div>
+              <div class="tab-item-card animate">
+                <i class="fa-solid fa-futbol tab-item-icon"></i>
+                <div class="tab-item-title">Futsal &amp; Basket</div>
+                <p class="tab-item-desc">Tim olahraga kompetitif dengan pelatih bersertifikat.</p>
+              </div>
+              <div class="tab-item-card animate">
+                <i class="fa-solid fa-seedling tab-item-icon"></i>
+                <div class="tab-item-title">Green School Club</div>
+                <p class="tab-item-desc">Gerakan sekolah hijau dan program daur ulang aktif.</p>
+              </div>
+              <div class="tab-item-card animate">
+                <i class="fa-solid fa-microphone tab-item-icon"></i>
+                <div class="tab-item-title">Podcast &amp; Media</div>
+                <p class="tab-item-desc">Produksi konten audio-visual dan jurnalisme digital.</p>
+              </div>
+              <div class="tab-item-card animate">
+                <i class="fa-solid fa-chess tab-item-icon"></i>
+                <div class="tab-item-title">Debate &amp; Public Speaking</div>
+                <p class="tab-item-desc">Latihan berpikir kritis dan berbicara percaya diri.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Panel: Prestasi -->
+          <div class="tab-panel" id="panel-prestasi">
+            <div class="tab-grid stagger">
+              <div class="tab-item-card animate">
+                <i class="fa-solid fa-trophy tab-item-icon"></i>
+                <div class="tab-item-title">National Science Olympiad</div>
+                <p class="tab-item-desc">Juara 1 Tingkat Nasional 2024</p>
+                <span class="prestasi-level level-nasional">Nasional</span>
+              </div>
+              <div class="tab-item-card animate">
+                <i class="fa-solid fa-award tab-item-icon"></i>
+                <div class="tab-item-title">Hackathon Pelajar Indonesia</div>
+                <p class="tab-item-desc">Juara 2 Tingkat Nasional 2024</p>
+                <span class="prestasi-level level-nasional">Nasional</span>
+              </div>
+              <div class="tab-item-card animate">
+                <i class="fa-solid fa-medal tab-item-icon"></i>
+                <div class="tab-item-title">Lomba Desain Web Provinsi</div>
+                <p class="tab-item-desc">Juara 1 Tingkat Provinsi 2024</p>
+                <span class="prestasi-level level-provinsi">Provinsi</span>
+              </div>
+              <div class="tab-item-card animate">
+                <i class="fa-solid fa-star tab-item-icon"></i>
+                <div class="tab-item-title">Eco Project Award</div>
+                <p class="tab-item-desc">Best Project Tingkat Kota 2023</p>
+                <span class="prestasi-level level-kota">Kota</span>
+              </div>
+              <div class="tab-item-card animate">
+                <i class="fa-solid fa-trophy tab-item-icon"></i>
+                <div class="tab-item-title">Robotika Cup Nasional</div>
+                <p class="tab-item-desc">Juara 3 Tingkat Nasional 2023</p>
+                <span class="prestasi-level level-nasional">Nasional</span>
+              </div>
+              <div class="tab-item-card animate">
+                <i class="fa-solid fa-award tab-item-icon"></i>
+                <div class="tab-item-title">English Debate Championship</div>
+                <p class="tab-item-desc">Juara 1 Tingkat Provinsi 2023</p>
+                <span class="prestasi-level level-provinsi">Provinsi</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Panel: Kegiatan -->
+          <div class="tab-panel" id="panel-kegiatan">
+            <div class="tab-grid stagger">
+              <div class="tab-item-card animate">
+                <i class="fa-solid fa-graduation-cap tab-item-icon"></i>
+                <div class="tab-item-title">Graduation Day 2024</div>
+                <p class="tab-item-desc">Perayaan kelulusan 380 siswa penuh semangat dan haru.</p>
+              </div>
+              <div class="tab-item-card animate">
+                <i class="fa-solid fa-globe tab-item-icon"></i>
+                <div class="tab-item-title">Global Exchange Program</div>
+                <p class="tab-item-desc">Pertukaran pelajar virtual dengan sekolah di Jepang dan Belanda.</p>
+              </div>
+              <div class="tab-item-card animate">
+                <i class="fa-solid fa-recycle tab-item-icon"></i>
+                <div class="tab-item-title">Earth Day Action</div>
+                <p class="tab-item-desc">Aksi bersih lingkungan dan penanaman 1.000 pohon mangrove.</p>
+              </div>
+              <div class="tab-item-card animate">
+                <i class="fa-solid fa-laptop tab-item-icon"></i>
+                <div class="tab-item-title">Tech Innovation Fair 2024</div>
+                <p class="tab-item-desc">Pameran proyek teknologi siswa yang dihadiri 2.000 pengunjung.</p>
+              </div>
+              <div class="tab-item-card animate">
+                <i class="fa-solid fa-hands-helping tab-item-icon"></i>
+                <div class="tab-item-title">Community Service Week</div>
+                <p class="tab-item-desc">Seminggu penuh kegiatan sosial di komunitas sekitar sekolah.</p>
+              </div>
+              <div class="tab-item-card animate">
+                <i class="fa-solid fa-film tab-item-icon"></i>
+                <div class="tab-item-title">Short Film Festival</div>
+                <p class="tab-item-desc">Festival film pendek karya siswa dengan tema lingkungan &amp; keberagaman.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PRESTASI — ZIGZAG VERTICAL TIMELINE ===== -->
+    <section id="prestasi" class="section bg-primary">
+      <div class="container">
+        <div class="section-header animate">
+          <span class="section-label">Kebanggaan Kami</span>
+          <h2>Prestasi Sekolah</h2>
+        </div>
+        <div class="achievements-timeline">
+          <div class="timeline-center-line"></div>
+
+          <div class="ach-item level-nasional animate">
+            <div class="ach-content">
+              <span class="ach-year">2024</span>
+              <div class="ach-title">National Science Olympiad</div>
+              <div class="ach-level">Nasional</div>
+            </div>
+            <div class="ach-icon-node"><i class="fa-solid fa-trophy"></i></div>
+            <div class="ach-spacer" aria-hidden="true"></div>
+          </div>
+
+          <div class="ach-item level-nasional animate">
+            <div class="ach-spacer" aria-hidden="true"></div>
+            <div class="ach-icon-node"><i class="fa-solid fa-award"></i></div>
+            <div class="ach-content">
+              <span class="ach-year">2024</span>
+              <div class="ach-title">Hackathon Pelajar Indonesia</div>
+              <div class="ach-level">Nasional</div>
+            </div>
+          </div>
+
+          <div class="ach-item level-provinsi animate">
+            <div class="ach-content">
+              <span class="ach-year">2024</span>
+              <div class="ach-title">Lomba Desain Web Provinsi</div>
+              <div class="ach-level">Provinsi</div>
+            </div>
+            <div class="ach-icon-node"><i class="fa-solid fa-medal"></i></div>
+            <div class="ach-spacer" aria-hidden="true"></div>
+          </div>
+
+          <div class="ach-item level-nasional animate">
+            <div class="ach-spacer" aria-hidden="true"></div>
+            <div class="ach-icon-node"><i class="fa-solid fa-trophy"></i></div>
+            <div class="ach-content">
+              <span class="ach-year">2023</span>
+              <div class="ach-title">Robotika Cup Nasional</div>
+              <div class="ach-level">Nasional</div>
+            </div>
+          </div>
+
+          <div class="ach-item level-provinsi animate">
+            <div class="ach-content">
+              <span class="ach-year">2023</span>
+              <div class="ach-title">English Debate Championship</div>
+              <div class="ach-level">Provinsi</div>
+            </div>
+            <div class="ach-icon-node"><i class="fa-solid fa-award"></i></div>
+            <div class="ach-spacer" aria-hidden="true"></div>
+          </div>
+
+          <div class="ach-item level-kota animate">
+            <div class="ach-spacer" aria-hidden="true"></div>
+            <div class="ach-icon-node"><i class="fa-solid fa-medal"></i></div>
+            <div class="ach-content">
+              <span class="ach-year">2022</span>
+              <div class="ach-title">Eco Project Award</div>
+              <div class="ach-level">Kota</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== BERITA — CARDS + ANNOUNCEMENTS + CALENDAR ===== -->
+    <section id="berita" class="section bg-bg">
+      <div class="container">
+        <div class="section-header animate">
+          <span class="section-label">Info Terkini</span>
+          <h2>Berita &amp; Pengumuman</h2>
+        </div>
+        <div class="berita-grid">
+          <!-- News cards column -->
+          <div class="news-cards-col stagger">
+            <div class="news-card card-3d animate">
+              <img src="https://placehold.co/600x400/0f6e75/ffffff?text=Berita+1" alt="Berita 1" class="news-thumb" />
+              <div class="news-body">
+                <span class="news-tag">Prestasi</span>
+                <div class="news-date"><i class="fa-regular fa-calendar"></i> 12 Maret 2025</div>
+                <div class="news-title">Sekolah Raih Penghargaan Green School Nasional 2025</div>
+                <p class="news-excerpt">Komitmen kami terhadap lingkungan terbayar — Kementerian LHK memberikan penghargaan Green School terbaik nasional untuk ketiga kalinya.</p>
+                <a href="#" class="news-link">Selengkapnya <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+            <div class="news-card card-3d animate">
+              <img src="https://placehold.co/600x400/1a9aa3/ffffff?text=Berita+2" alt="Berita 2" class="news-thumb" />
+              <div class="news-body">
+                <span class="news-tag">Kompetisi</span>
+                <div class="news-date"><i class="fa-regular fa-calendar"></i> 28 Februari 2025</div>
+                <div class="news-title">Tim Robotika Juara Hackathon Nasional 2025</div>
+                <p class="news-excerpt">Lima siswa membawa pulang trofi emas dari kompetisi hackathon nasional dengan solusi smart-city berbasis IoT yang inovatif.</p>
+                <a href="#" class="news-link">Selengkapnya <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+            <div class="news-card card-3d animate">
+              <img src="https://placehold.co/600x400/f6c90e/0d2b2e?text=Berita+3" alt="Berita 3" class="news-thumb" />
+              <div class="news-body">
+                <span class="news-tag">Kerjasama</span>
+                <div class="news-date"><i class="fa-regular fa-calendar"></i> 10 Februari 2025</div>
+                <div class="news-title">MoU Ditandatangani dengan Sekolah Mitra di Jepang</div>
+                <p class="news-excerpt">Program pertukaran pelajar resmi dengan Sakura International School Tokyo membuka peluang baru bagi siswa kami untuk belajar di Jepang.</p>
+                <a href="#" class="news-link">Selengkapnya <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sidebar: announcements + calendar -->
+          <div class="news-sidebar animate">
+            <div>
+              <div class="sidebar-heading">Pengumuman</div>
+              <div class="announce-list">
+                <div class="announce-item">
+                  <i class="fa-solid fa-bell announce-icon"></i>
+                  <div class="announce-body">
+                    <div class="announce-title">Pendaftaran Peserta Didik Baru 2025/2026 Dibuka<span class="badge-baru">Baru</span></div>
+                    <div class="announce-date">1 Maret 2025</div>
+                  </div>
+                </div>
+                <div class="announce-item">
+                  <i class="fa-solid fa-bell announce-icon"></i>
+                  <div class="announce-body">
+                    <div class="announce-title">Seleksi Program Global Exchange Japan 2025<span class="badge-baru">Baru</span></div>
+                    <div class="announce-date">20 Feb 2025</div>
+                  </div>
+                </div>
+                <div class="announce-item">
+                  <i class="fa-solid fa-bell announce-icon"></i>
+                  <div class="announce-body">
+                    <div class="announce-title">Libur Hari Raya Idul Fitri 1446 H</div>
+                    <div class="announce-date">15 Feb 2025</div>
+                  </div>
+                </div>
+                <div class="announce-item">
+                  <i class="fa-solid fa-bell announce-icon"></i>
+                  <div class="announce-body">
+                    <div class="announce-title">Pendaftaran Innovation Fair &amp; Science Expo 2025</div>
+                    <div class="announce-date">5 Feb 2025</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="sidebar-heading">Kalender Akademik</div>
+              <table class="calendar-table">
+                <thead>
+                  <tr>
+                    <th>Kegiatan</th>
+                    <th>Tanggal</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Awal Semester Genap</td>
+                    <td>6 Jan 2025</td>
+                  </tr>
+                  <tr>
+                    <td>UTS Genap</td>
+                    <td>10–15 Mar 2025</td>
+                  </tr>
+                  <tr>
+                    <td>Global Exchange Program</td>
+                    <td>1–14 Apr 2025</td>
+                  </tr>
+                  <tr>
+                    <td>Ujian Kenaikan Kelas</td>
+                    <td>2–7 Jun 2025</td>
+                  </tr>
+                  <tr>
+                    <td>Innovation Fair 2025</td>
+                    <td>14 Jun 2025</td>
+                  </tr>
+                  <tr>
+                    <td>Libur Akhir TP</td>
+                    <td>23 Jun – 13 Jul</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== GALERI — MASONRY + LIGHTBOX ===== -->
+    <section id="galeri" class="section bg-surface">
+      <div class="container">
+        <div class="section-header animate">
+          <span class="section-label">Momen Kami</span>
+          <h2>Galeri Kegiatan</h2>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item animate" data-src="https://placehold.co/600x450/0f6e75/ffffff?text=Galeri+1" data-title="Innovation Lab Session">
+            <img src="https://placehold.co/600x450/0f6e75/ffffff?text=Galeri+1" alt="Innovation Lab Session" />
+            <div class="gallery-overlay"><span class="gallery-overlay-title">Innovation Lab Session</span></div>
+          </div>
+          <div class="gallery-item animate" data-src="https://placehold.co/600x600/1a9aa3/ffffff?text=Galeri+2" data-title="Robotika Workshop">
+            <img src="https://placehold.co/600x600/1a9aa3/ffffff?text=Galeri+2" alt="Robotika Workshop" />
+            <div class="gallery-overlay"><span class="gallery-overlay-title">Robotika Workshop</span></div>
+          </div>
+          <div class="gallery-item animate" data-src="https://placehold.co/600x400/0d2b2e/ffffff?text=Galeri+3" data-title="Global Exchange Day">
+            <img src="https://placehold.co/600x400/0d2b2e/ffffff?text=Galeri+3" alt="Global Exchange Day" />
+            <div class="gallery-overlay"><span class="gallery-overlay-title">Global Exchange Day</span></div>
+          </div>
+          <div class="gallery-item animate" data-src="https://placehold.co/600x500/f6c90e/0d2b2e?text=Galeri+4" data-title="Earth Day Action">
+            <img src="https://placehold.co/600x500/f6c90e/0d2b2e?text=Galeri+4" alt="Earth Day Action" />
+            <div class="gallery-overlay"><span class="gallery-overlay-title">Earth Day Action</span></div>
+          </div>
+          <div class="gallery-item animate" data-src="https://placehold.co/600x450/0f6e75/ffffff?text=Galeri+5" data-title="Sport Festival">
+            <img src="https://placehold.co/600x450/0f6e75/ffffff?text=Galeri+5" alt="Sport Festival" />
+            <div class="gallery-overlay"><span class="gallery-overlay-title">Sport Festival</span></div>
+          </div>
+          <div class="gallery-item animate" data-src="https://placehold.co/600x600/1a9aa3/ffffff?text=Galeri+6" data-title="Digital Creative Expo">
+            <img src="https://placehold.co/600x600/1a9aa3/ffffff?text=Galeri+6" alt="Digital Creative Expo" />
+            <div class="gallery-overlay"><span class="gallery-overlay-title">Digital Creative Expo</span></div>
+          </div>
+          <div class="gallery-item animate" data-src="https://placehold.co/600x400/0d2b2e/ffffff?text=Galeri+7" data-title="Short Film Screening">
+            <img src="https://placehold.co/600x400/0d2b2e/ffffff?text=Galeri+7" alt="Short Film Screening" />
+            <div class="gallery-overlay"><span class="gallery-overlay-title">Short Film Screening</span></div>
+          </div>
+          <div class="gallery-item animate" data-src="https://placehold.co/600x500/f6c90e/0d2b2e?text=Galeri+8" data-title="Graduation Day 2024">
+            <img src="https://placehold.co/600x500/f6c90e/0d2b2e?text=Galeri+8" alt="Graduation Day 2024" />
+            <div class="gallery-overlay"><span class="gallery-overlay-title">Graduation Day 2024</span></div>
+          </div>
+          <div class="gallery-item animate" data-src="https://placehold.co/600x450/0f6e75/ffffff?text=Galeri+9" data-title="Community Service Week">
+            <img src="https://placehold.co/600x450/0f6e75/ffffff?text=Galeri+9" alt="Community Service Week" />
+            <div class="gallery-overlay"><span class="gallery-overlay-title">Community Service Week</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div id="lightbox" role="dialog" aria-modal="true" aria-label="Lightbox galeri">
+      <button id="lbClose" aria-label="Tutup"><i class="fa-solid fa-xmark"></i></button>
+      <button class="lb-btn" id="lbPrev" aria-label="Sebelumnya"><i class="fa-solid fa-chevron-left"></i></button>
+      <div class="lb-img-wrap">
+        <img id="lbImg" src="" alt="" />
+      </div>
+      <p id="lbCaption"></p>
+      <button class="lb-btn" id="lbNext" aria-label="Berikutnya"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+
+    <!-- ===== TESTIMONI — PEEK CAROUSEL ===== -->
+    <section id="testimoni" class="section bg-primary">
+      <div class="container">
+        <div class="section-header animate">
+          <span class="section-label">Suara Mereka</span>
+          <h2>Kata Mereka</h2>
+        </div>
+        <div class="testimonial-carousel" id="testimonialCarousel">
+          <div class="testimonial-track" id="testimonialTrack">
+            <div class="testimonial-card active">
+              <p class="t-quote">Anak saya yang tadinya pemalu kini jadi pembicara percaya diri. Program Global Exchange benar-benar mengubah perspektifnya.</p>
+              <div class="t-author">
+                <img src="https://placehold.co/80x80/0f6e75/ffffff?text=OR1" alt="Ibu Dina Kartika" />
+                <div>
+                  <div class="t-author-name">Ibu Dina Kartika</div>
+                  <div class="t-author-rel">Orang Tua Siswa Kelas VIII</div>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-card">
+              <p class="t-quote">Innovation Lab di sini yang bikin saya lolos masuk program Computer Science di NUS Singapura.</p>
+              <div class="t-author">
+                <img src="https://placehold.co/80x80/1a9aa3/ffffff?text=AL1" alt="Fadhil Ramadhan" />
+                <div>
+                  <div class="t-author-name">Fadhil Ramadhan</div>
+                  <div class="t-author-rel">Alumni Angkatan 2021</div>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-card">
+              <p class="t-quote">Pendekatannya beda dari sekolah lain. Anak saya belajar bukan karena takut nilai jelek, tapi karena penasaran dan semangat.</p>
+              <div class="t-author">
+                <img src="https://placehold.co/80x80/0d2b2e/ffffff?text=OR2" alt="Bapak Reza Pratama" />
+                <div>
+                  <div class="t-author-name">Bapak Reza Pratama</div>
+                  <div class="t-author-rel">Orang Tua Siswa Kelas IX</div>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-card">
+              <p class="t-quote">Green School Club mengubah cara saya melihat dunia. Sekarang saya kuliah di jurusan Environmental Science.</p>
+              <div class="t-author">
+                <img src="https://placehold.co/80x80/f6c90e/0d2b2e?text=AL2" alt="Keisha Amalia" />
+                <div>
+                  <div class="t-author-name">Keisha Amalia</div>
+                  <div class="t-author-rel">Alumni Angkatan 2023</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-nav">
+          <button class="t-prev" id="tPrev" aria-label="Sebelumnya"><i class="fa-solid fa-chevron-left"></i></button>
+          <div id="tDots" class="t-dots-row">
+            <div class="t-dot active"></div>
+            <div class="t-dot"></div>
+            <div class="t-dot"></div>
+            <div class="t-dot"></div>
+          </div>
+          <button class="t-next" id="tNext" aria-label="Berikutnya"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== LOKASI ===== -->
+    <section id="lokasi" class="section bg-bg">
+      <div class="container">
+        <div class="section-header animate">
+          <span class="section-label">Temukan Kami</span>
+          <h2>Lokasi Kami</h2>
+        </div>
+        <div class="lokasi-grid">
+          <div class="maps-frame animate-left">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.000000000000!2d106.8000000!3d-6.4000000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMjQnMDAuMCJTIDEwNsKwNDgnMDAuMCJF!5e0!3m2!1sid!2sid!4v0000000000000"
+              allowfullscreen
+              loading="lazy"
+              title="Peta lokasi SMA Nusantara Bangsa"
+            ></iframe>
+          </div>
+          <div class="info-card animate-right">
+            <div class="info-card-title"><i class="fa-solid fa-location-dot" style="color: var(--color-accent); margin-right: 8px"></i>Info Kontak</div>
+            <div class="info-row">
+              <i class="fa-solid fa-map-marker-alt info-icon"></i>
+              <div>
+                <div class="info-label">Alamat</div>
+                <div class="info-value">Jl. Pendidikan No. 17, Depok, Jawa Barat 16412</div>
+              </div>
+            </div>
+            <div class="info-row">
+              <i class="fa-solid fa-phone info-icon"></i>
+              <div>
+                <div class="info-label">Telepon</div>
+                <div class="info-value">(021) 1234-5678</div>
+              </div>
+            </div>
+            <div class="info-row">
+              <i class="fa-solid fa-envelope info-icon"></i>
+              <div>
+                <div class="info-label">Email</div>
+                <div class="info-value">info@smanusantarabangsa.sch.id</div>
+              </div>
+            </div>
+            <div class="info-row">
+              <i class="fa-solid fa-clock info-icon"></i>
+              <div>
+                <div class="info-label">Jam Operasional</div>
+                <table class="hours-table">
+                  <tr>
+                    <td>Senin – Kamis</td>
+                    <td>07.00 – 15.30 WIB</td>
+                  </tr>
+                  <tr>
+                    <td>Jumat</td>
+                    <td>07.00 – 11.30 WIB</td>
+                  </tr>
+                  <tr>
+                    <td>Sabtu</td>
+                    <td>07.00 – 13.00 WIB</td>
+                  </tr>
+                  <tr>
+                    <td>Minggu</td>
+                    <td>Tutup</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== KONTAK ===== -->
+    <section id="kontak" class="section bg-surface">
+      <div class="container">
+        <div class="section-header animate">
+          <span class="section-label">Ayo Terhubung</span>
+          <h2>Hubungi Kami</h2>
+        </div>
+        <div class="kontak-grid">
+          <div class="kontak-left animate-left">
+            <a href="https://wa.me/6281234567890?text=Halo%2C+saya+ingin+mengetahui+informasi+lebih+lanjut+tentang+SMA+Nusantara+Bangsa." class="wa-btn" target="_blank" rel="noopener">
+              <i class="fa-brands fa-whatsapp"></i> Chat via WhatsApp
+            </a>
+            <div class="kontak-info">
+              <div class="kontak-info-row"><i class="fa-solid fa-phone"></i> (021) 1234-5678</div>
+              <div class="kontak-info-row"><i class="fa-solid fa-envelope"></i> info@smanusantarabangsa.sch.id</div>
+              <div class="kontak-info-row"><i class="fa-solid fa-map-marker-alt"></i> Jl. Pendidikan No. 17, Depok, Jawa Barat</div>
+            </div>
+            <div class="social-icons">
+              <a href="#" class="social-icon ig" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" class="social-icon fb" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#" class="social-icon yt" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#" class="social-icon tt" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+          </div>
+          <div class="contact-form animate-right">
+            <div class="form-title">Kirim Pesan</div>
+            <form id="contactForm" novalidate>
+              <div class="form-group">
+                <label for="cfNama">Nama Lengkap</label>
+                <input type="text" id="cfNama" class="form-control" placeholder="Masukkan nama Anda" required />
+              </div>
+              <div class="form-group">
+                <label for="cfEmail">Alamat Email</label>
+                <input type="email" id="cfEmail" class="form-control" placeholder="email@contoh.com" required />
+              </div>
+              <div class="form-group">
+                <label for="cfPesan">Pesan</label>
+                <textarea id="cfPesan" class="form-control" placeholder="Tulis pesan Anda di sini..." required></textarea>
+              </div>
+              <button type="submit" class="form-submit">Kirim Pesan <i class="fa-solid fa-paper-plane"></i></button>
+              <p class="form-success" id="formSuccess"><i class="fa-solid fa-circle-check"></i> Pesan terkirim! Kami akan segera menghubungi Anda.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER — 4 KOLOM ===== -->
+    <footer id="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <!-- Col 1: Brand -->
+          <div>
+            <div class="footer-logo-row">
+              <div class="footer-logo">SN</div>
+              <span class="footer-brand-name">SMA Nusantara Bangsa</span>
+            </div>
+            <p class="footer-tagline">Membentuk Generasi Cerdas, Berkarakter, dan Berdaya Saing</p>
+            <p class="footer-address">Jl. Pendidikan No. 17, Depok, Jawa Barat 16412</p>
+          </div>
+          <!-- Col 2: Links -->
+          <div>
+            <div class="footer-col-title">Navigasi</div>
+            <div class="footer-links-list">
+              <a href="#hero">Beranda</a>
+              <a href="#tentang">Tentang</a>
+              <a href="#program">Program</a>
+              <a href="#guru">Tim Guru</a>
+              <a href="#kesiswaan">Siswa</a>
+              <a href="#berita">Berita</a>
+              <a href="#galeri">Galeri</a>
+              <a href="#kontak">Kontak</a>
+            </div>
+          </div>
+          <!-- Col 3: Contact -->
+          <div>
+            <div class="footer-col-title">Kontak</div>
+            <div class="footer-contact-list">
+              <div class="footer-contact-item"><i class="fa-solid fa-phone"></i> (021) 1234-5678</div>
+              <div class="footer-contact-item"><i class="fa-solid fa-envelope"></i> info@smanusantarabangsa.sch.id</div>
+              <div class="footer-contact-item"><i class="fa-solid fa-map-marker-alt"></i> Jl. Pendidikan No. 17, Depok</div>
+            </div>
+            <div class="footer-social">
+              <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+          </div>
+          <!-- Col 4: Newsletter -->
+          <div>
+            <div class="footer-col-title">Newsletter</div>
+            <p class="newsletter-disclaimer" style="margin-bottom: 4px; font-size: 0.85rem; color: rgba(255, 255, 255, 0.55)">Dapatkan update terbaru langsung di kotak masuk Anda.</p>
+            <form id="newsletterForm" novalidate>
+              <div class="newsletter-row">
+                <input type="email" class="newsletter-input" id="nlEmail" placeholder="email@contoh.com" required />
+                <button type="submit" class="sub-btn">Subscribe</button>
+              </div>
+              <p class="newsletter-disclaimer">Tidak ada spam, kapan saja bisa berhenti.</p>
+              <p class="newsletter-success" id="nlSuccess"><i class="fa-solid fa-circle-check"></i> Terima kasih! Anda telah berlangganan.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">&copy; 2025 <span>SMA Nusantara Bangsa</span>. Powered by <span>[NAMA BRAND] by ilycode softwarelabs</span>.</div>
+      </div>
+    </footer>
+
+    <!-- ===== JS ===== -->
+    <script src="./script.js"></script>
+  </body>
+</html>
