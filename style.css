@@ -291,7 +291,7 @@ nav#navbar.scrolled .nav-toggle span {
   transform: rotate(-45deg) translate(5px, -5px);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1023px) {
   .nav-toggle {
     display: flex;
   }
@@ -323,15 +323,6 @@ nav#navbar.scrolled .nav-toggle span {
   .nav-menu a.active {
     background: var(--color-accent);
     color: var(--color-text);
-  }
-}
-@media (min-width: 768px) and (max-width: 1023px) {
-  .nav-menu a {
-    padding: 8px 10px;
-    font-size: 0.82rem;
-  }
-  .nav-brand-name {
-    font-size: 0.9rem;
   }
 }
 
@@ -892,6 +883,10 @@ nav#navbar.scrolled .nav-toggle span {
 @media (max-width: 767px) {
   .stats-grid {
     grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+  .stat-card {
+    padding: 20px 12px;
   }
 }
 
@@ -1250,18 +1245,29 @@ nav#navbar.scrolled .nav-toggle span {
 }
 @media (max-width: 767px) {
   .teachers-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
   }
   .teacher-card {
     height: auto;
   }
   .teacher-card img {
-    height: 260px;
+    height: 180px;
   }
   .teacher-info {
     position: static;
     transform: none;
     background: rgba(15, 110, 117, 0.95);
+    padding: 12px;
+  }
+  .teacher-name {
+    font-size: 0.85rem;
+  }
+  .teacher-subject {
+    font-size: 0.75rem;
+  }
+  .teacher-quote {
+    display: none;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -1386,12 +1392,21 @@ nav#navbar.scrolled .nav-toggle span {
 }
 
 @media (max-width: 767px) {
+  .tab-nav-center {
+    overflow-x: auto;
+    justify-content: flex-start;
+    padding: 0 4px 4px;
+  }
+  .tab-nav-wrapper {
+    flex-shrink: 0;
+  }
   .tab-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
   }
   .tab-btn {
-    padding: 10px 16px;
-    font-size: 0.82rem;
+    padding: 10px 14px;
+    font-size: 0.8rem;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
