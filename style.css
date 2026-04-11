@@ -26,6 +26,7 @@
 html {
   scroll-behavior: smooth;
   font-size: 16px;
+  overflow-x: hidden;
 }
 body {
   font-family: var(--font-body);
@@ -167,10 +168,12 @@ nav#navbar {
   top: 0;
   left: 0;
   right: 0;
+  width: 100%;
   z-index: 1000;
   padding: 16px 0;
   transition: all 0.3s ease;
   background: transparent;
+  overflow: hidden;
 }
 nav#navbar.scrolled {
   background: #ffffff;
@@ -291,7 +294,7 @@ nav#navbar.scrolled .nav-toggle span {
   transform: rotate(-45deg) translate(5px, -5px);
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1279px) {
   .nav-toggle {
     display: flex;
   }
@@ -310,6 +313,7 @@ nav#navbar.scrolled .nav-toggle span {
     display: none;
     min-width: 200px;
     z-index: 999;
+    overflow: hidden;
   }
   .nav-menu.open {
     display: flex;
